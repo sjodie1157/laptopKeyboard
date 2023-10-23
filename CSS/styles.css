@@ -1,0 +1,28 @@
+.container-row-1 {
+    display: flex;
+}
+/* boards */
+.sideboard {
+    display: flex;
+    flex-basis: 40%;
+}
+
+.mainboard {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+/* buttons */
+.col-1 {
+    display: flex;
+    flex-basis: 5%;
+}
+
+.col-2 {
+    display: flex;
+    flex-basis: 10%;
+}
+
+.col-1-3 {
+    flex-basis: 7%;
+}
