@@ -1,3 +1,10 @@
+/* *,
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
 .container-row-1 {
     display: flex;
 }
@@ -20,9 +27,18 @@
 
 .col-2 {
     display: flex;
-    flex-basis: 10%;
+    flex-basis: 9%;
 }
 
 .col-1-3 {
     flex-basis: 7%;
+}
+
+.col-3 {
+    display: flex;
+    flex-basis: 13%;
+}
+
+.col-3 button {
+padding:0 31% 0;
 }
