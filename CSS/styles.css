@@ -169,8 +169,6 @@
     border-top-right-radius:5%;
 }
 
-
-
 * button:active{
     background-color: grey;
     border: 2px solid black;
