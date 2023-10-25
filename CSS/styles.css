@@ -11,20 +11,74 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 .container {
     display: flex;
-    background-color: aqua;
+    background-color: rgb(48, 48, 48);
 }
 
 /* sections */
 
 .mainboard {
     flex-basis: 75%;
-    background-color: rgb(48, 48, 48);
 }
 
 .sideboard {
+    margin: 0 0 0 1.1em;
+    flex-direction: column;
+    flex-basis: 16%;
+}
+
+/* sideboard */
+
+.col-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-2:first-child button{
+    width: 75%;
+    margin: 0.2em;
+    padding: 0.2em 1.2em;
+}
+
+.col-2 button{
+    margin: 0.2em;
+    padding: 1.8em 1.7em;
+}
+
+.container2 {
+    display: flex;
+}
+
+.numbRow2 {
+    flex-basis: 80%;
+}
+
+.numberpad {
+    display: flex;
+}
+
+.numbRow2 button {
+    margin: 0.1em;
+    padding: 1.8em 1.7em;
+}
+
+.numbRow1 {
+    display: flex;
     flex-direction: column;
     flex-basis: 25%;
-    background-color: green;
+}
+
+.numbRow1 button {
+    width: 100%;
+    margin: 0.1em;
+    padding: 4.4em 0.6em;
+}
+
+.numli4  div {
+    display: contents;
+}
+
+.numli4  div button {
+    padding: 1.8em 4em;
 }
 
 /* genral button spacing */
